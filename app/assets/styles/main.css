@@ -1,0 +1,73 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+@theme static {
+  /* Override default green color */
+  /* --color-green-50: #EFFDF5;
+  --color-green-100: #D9FBE8;
+  --color-green-200: #B3F5D1;
+  --color-green-300: #75EDAE;
+  --color-green-400: #00DC82;
+  --color-green-500: #00C16A;
+  --color-green-600: #00A155;
+  --color-green-700: #007F45;
+  --color-green-800: #016538;
+  --color-green-900: #0A5331;
+  --color-green-950: #052E16; */
+
+  /* Define new custom color */
+  --color-brand-25: #f5f9ff;
+  --color-brand-50: #eff6ff;
+  --color-brand-100: #dbeafe;
+  --color-brand-200: #bfdbfe;
+  --color-brand-400: #60a5fa;
+  --color-brand-500: #3b82f6;
+  --color-brand-600: #2563eb;
+  --color-brand-800: #1e40af;
+  --color-brand-900: #1e3a8a;
+  --color-brand-950: #172554;
+}
+
+:root {
+  font-family: Noto Sans TC;
+
+  --ui-primary: var(--color-brand-800);
+  --ui-primary-hover: var(--color-brand-900);
+  --ui-primary-active: var(--color-brand-900);
+
+  --ui-secondary: var(--color-brand-100);
+  --ui-secondary-hover: var(--color-brand-200);
+  --ui-secondary-active: var(--color-brand-200);
+}
+
+h3 {
+  margin: 0px;
+  font-size: 24px;
+  line-height: 1.375;
+  letter-spacing: 0.025em;
+  font-weight: 700;
+}
+
+h4 {
+  margin: 0px;
+  font-size: 20px;
+  line-height: 1.375;
+  letter-spacing: 0.025em;
+  font-weight: 700;
+}
+
+h5 {
+  margin: 0px;
+  font-size: 18px;
+  line-height: 1.5;
+  letter-spacing: 0.025em;
+  font-weight: 700;
+}
+
+h6 {
+  margin: 0px;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.025em;
+  font-weight: 700;
+}
