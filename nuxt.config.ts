@@ -15,7 +15,7 @@ export default defineNuxtConfig({
       pathPrefix: false,
     },
   ],
-  modules: ["@nuxt/ui"],
+  modules: ["@nuxt/ui", "@nuxt/image"],
   fonts: {
     // 暫不下載字型
     providers: {

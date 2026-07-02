@@ -1,7 +1,9 @@
 <template>
   <Header />
-  <main>
-    <slot />
-  </main>
+  <UMain class="bg-info">
+    <UContainer>
+      <slot />
+    </UContainer>
+  </UMain>
   <Footer />
 </template>

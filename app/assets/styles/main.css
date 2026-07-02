@@ -2,42 +2,51 @@
 @import "@nuxt/ui";
 
 @theme static {
-  /* Override default green color */
-  /* --color-green-50: #EFFDF5;
-  --color-green-100: #D9FBE8;
-  --color-green-200: #B3F5D1;
-  --color-green-300: #75EDAE;
-  --color-green-400: #00DC82;
-  --color-green-500: #00C16A;
-  --color-green-600: #00A155;
-  --color-green-700: #007F45;
-  --color-green-800: #016538;
-  --color-green-900: #0A5331;
-  --color-green-950: #052E16; */
+  /* yoxi-red (#EF352A) */
+  --color-yoxi-red-50:  #f8f6f6;
+  --color-yoxi-red-100: #eadbda;
+  --color-yoxi-red-200: #e2bab7;
+  --color-yoxi-red-300: #e0938e;
+  --color-yoxi-red-400: #e4675f;
+  --color-yoxi-red-500: #ef352a;
+  --color-yoxi-red-600: #c6241a;
+  --color-yoxi-red-700: #8c221c;
+  --color-yoxi-red-800: #571b18;
+  --color-yoxi-red-900: #28100e;
+  --color-yoxi-red-950: #120807;
 
-  /* Define new custom color */
-  --color-brand-25: #f5f9ff;
-  --color-brand-50: #eff6ff;
-  --color-brand-100: #dbeafe;
-  --color-brand-200: #bfdbfe;
-  --color-brand-400: #60a5fa;
-  --color-brand-500: #3b82f6;
-  --color-brand-600: #2563eb;
-  --color-brand-800: #1e40af;
-  --color-brand-900: #1e3a8a;
-  --color-brand-950: #172554;
+  /* yoxi-blue (#063255) */
+  --color-yoxi-blue-50:  #f6f7f8;
+  --color-yoxi-blue-100: #c2d0dc;
+  --color-yoxi-blue-200: #81abcc;
+  --color-yoxi-blue-300: #3686c7;
+  --color-yoxi-blue-400: #185d94;
+  --color-yoxi-blue-500: #063255;
+  --color-yoxi-blue-600: #092a44;
+  --color-yoxi-blue-700: #0a2134;
+  --color-yoxi-blue-800: #0a1925;
+  --color-yoxi-blue-900: #081118;
+  --color-yoxi-blue-950: #070d12;
+
+  /* yoxi-gray (#EDF4FC) */
+  --color-yoxi-gray-50:  #f7f7f8;
+  --color-yoxi-gray-100: #f5f7f9;
+  --color-yoxi-gray-200: #f3f6f9;
+  --color-yoxi-gray-300: #f1f5fa;
+  --color-yoxi-gray-400: #eff5fb;
+  --color-yoxi-gray-500: #edf4fc;
+  --color-yoxi-gray-600: #9abee8;
+  --color-yoxi-gray-700: #4e89cd;
+  --color-yoxi-gray-800: #2f5785;
+  --color-yoxi-gray-900: #172536;
+  --color-yoxi-gray-950: #080c11;
+
+  /* yoxi-white */
+  --color-yoxi-white: #FFFFFF;
 }
 
 :root {
   font-family: Noto Sans TC;
-
-  --ui-primary: var(--color-brand-800);
-  --ui-primary-hover: var(--color-brand-900);
-  --ui-primary-active: var(--color-brand-900);
-
-  --ui-secondary: var(--color-brand-100);
-  --ui-secondary-hover: var(--color-brand-200);
-  --ui-secondary-active: var(--color-brand-200);
 }
 
 h3 {
