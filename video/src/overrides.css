@@ -1,0 +1,5 @@
+.caption { width: max-content; max-width: 1100px; white-space: normal; line-height: 1.35; }
+.single-phone { top: 235px; left: 200px; }
+.single-phone .phone { scale: .76; transform-origin: top left; }
+.phone-pair { top: 255px; left: 140px; gap: 40px; }
+.phone-pair .phone { scale: .72; margin: -70px -35px; }
